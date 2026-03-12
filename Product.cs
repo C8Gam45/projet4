@@ -4,6 +4,7 @@ namespace projet4
     {
         public string Name { get; set; }
         public double Price { get; set; }
+        private Supplier supplier;
 
         public Product() { }
 
