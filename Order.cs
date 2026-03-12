@@ -2,6 +2,15 @@ namespace projet4
 {
     public class Order
     {
-        // properties and methods will be added later
+        public int Id { get; set; }
+        public DateTime Date { get; set; }
+
+        public Order() { }
+
+        public Order(int id, DateTime date)
+        {
+            Id = id;
+            Date = date;
+        }
     }
 }
